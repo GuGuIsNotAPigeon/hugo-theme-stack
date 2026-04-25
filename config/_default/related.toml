@@ -1,0 +1,10 @@
+# 是 Hugo 的“相关文章”配置文件，用于控制站点内相关内容的计算方式。
+includeNewer = true
+threshold    = 60
+toLower      = false
+indices      = [
+    { name = "tags", weight = 100 },
+    { name = "categories", weight = 200 },
+    { name = "keywords", weight = 50 },
+    
+]

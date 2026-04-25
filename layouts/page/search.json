@@ -1,0 +1,9 @@
+{{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+{{- $result := slice -}}
+
+{{- range $pages -}}
+    {{- $data := dict "title" .Title "date" (.Date.Format "2006-01-02") "permalink" .RelPermalink "content" (.Plain | truncate 200) -}}
+    {{- $result = $result | append $data -}}
+{{- end -}}
+
+{{ jsonify $result }}

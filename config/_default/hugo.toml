@@ -1,0 +1,19 @@
+baseURL                = "https://demo.stack.cai.im/"
+languageCode           = "zh"
+title                  = "Hugo Theme Stack"
+defaultContentLanguage = "zh"
+# 如果 DefaultContentLanguage 是 CJK 语言，则将 hasCJKLanguage 设置为 true
+# 这将使 .Summary 和 .WordCount 表现正确
+hasCJKLanguage         = false
+ignoreFiles            = ["talk"]
+
+
+[pagination]
+    pagerSize = 5
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[services.disqus]
+    shortname = "hugo-theme-stack"

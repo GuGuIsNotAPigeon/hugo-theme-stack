@@ -1,0 +1,55 @@
+[[main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = -110
+    [main.params]
+        icon = "home"
+
+[[main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = -90
+    [main.params]
+        icon = "user"
+
+[[main]]
+    identifier = "archives"
+    name       = "Archives"
+    url        = "/archives/"
+    weight     = -70
+    [main.params]
+        icon = "archives"
+
+# [[main]]
+#     identifier = "links"
+#     name       = "Links"
+#     url        = "/links/"
+#     weight     = -50
+#     [main.params]
+#         icon = "link"
+
+[[main]]
+    identifier = "search"
+    name       = "Search"
+    url        = "/search/"
+    weight     = -40
+    [main.params]
+        icon = "search"
+
+# [[social]]
+#     identifier = "github"
+#     name       = "GitHub"
+#     url        = "https://github.com/GuGuIsNotAPigeon"
+
+#     [social.params]
+#         icon = "brand-github"
+
+# [[social]]
+#     identifier = "twitter"
+#     name       = "Twitter"
+#     url        = "https://twitter.com/GuGuIsNotPigeon"
+
+#     [social.params]
+#         icon = "brand-twitter"
