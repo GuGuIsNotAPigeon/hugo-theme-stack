@@ -4,7 +4,7 @@ description: 第一个正式的博客站捏~
 date: 2026-04-25T13:31:55+08:00
 math: false
 license: false
-comments: false
+comments: true
 draft: false
 categories: 
     - 其他

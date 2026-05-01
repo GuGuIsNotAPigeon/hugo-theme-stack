@@ -1,10 +1,10 @@
-baseURL                = "https://demo.stack.cai.im/"
-languageCode           = "zh"
+baseURL                = "https://guguisnotapigeon.github.io/"  # 网站的基础 URL，通常是你的网站地址
+languageCode           = "zh" # 网站的默认语言代码，使用 ISO 639-1 语言代码，例如 "en" 表示英语，"zh" 表示中文
 title                  = "Hugo Theme Stack"
 defaultContentLanguage = "zh"
 # 如果 DefaultContentLanguage 是 CJK 语言，则将 hasCJKLanguage 设置为 true
 # 这将使 .Summary 和 .WordCount 表现正确
-hasCJKLanguage         = false
+hasCJKLanguage         = true
 ignoreFiles            = ["talk"]
 
 

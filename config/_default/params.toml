@@ -148,9 +148,9 @@ toggle = true
 
 [sidebar]
     compact   = false # 是否启用紧凑模式，默认为 false
-    emoji    = "✨"
+    emoji    = "✨" # 侧边栏标题的 emoji 图标，可以根据需要修改
     subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "https://avatars.githubusercontent.com/u/212193102?v=4"
+    avatar   = "https://avatars.githubusercontent.com/u/212193102?v=4"  # 侧边栏头像链接
 
 [thumbnail]
     enabled = true
