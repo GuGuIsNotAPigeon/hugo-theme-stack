@@ -16,7 +16,7 @@ if exist "content/post/%Dir%" (
     )
 )
 
-hugo new content/post/%Dir%/index.md
+hugo new content/post/%Dir%/index.en.md
 hugo new content/post/%Dir%/index.zh.md
 hugo new content/post/%Dir%/index.ja.md
 hugo new content/post/%Dir%/index.zh-hant-tw.md

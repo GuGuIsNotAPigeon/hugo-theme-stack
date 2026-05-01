@@ -1,7 +1,7 @@
 [[main]]
     identifier = "home"
     name       = "首頁"
-    url        = "/"
+    url        = "/zh-hant-tw/"
     weight     = -110
     [main.params]
         icon = "home"
@@ -9,7 +9,7 @@
 [[main]]
     identifier = "about"
     name       = "關於"
-    url        = "/about/"
+    url        = "/zh-hant-tw/about/"
     weight     = -90
     [main.params]
         icon = "user"
@@ -17,7 +17,7 @@
 [[main]]
     identifier = "archives"
     name       = "歸檔"
-    url        = "/archives/"
+    url        = "/zh-hant-tw/archives/"
     weight     = -70
     [main.params]
         icon = "archives"
@@ -25,7 +25,7 @@
 # [[main]]
 #     identifier = "links"
 #     name       = "友鏈"
-#     url        = "/links/"
+#     url        = "/zh-hant-tw/links/"
 #     weight     = -50
 #     [main.params]
 #         icon = "link"
@@ -33,7 +33,7 @@
 [[main]]
     identifier = "search"
     name       = "搜索"
-    url        = "/search/"
+    url        = "/zh-hant-tw/search/"
     weight     = -40
     [main.params]
         icon = "search"

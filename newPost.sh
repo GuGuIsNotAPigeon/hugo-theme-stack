@@ -24,7 +24,7 @@ if [ -d "content/post/$Dir" ]; then
 fi
 
 # 创建多语言文章
-hugo new "content/post/$Dir/index.md"
+hugo new "content/post/$Dir/index.en.md"
 hugo new "content/post/$Dir/index.zh.md"
 hugo new "content/post/$Dir/index.ja.md"
 hugo new "content/post/$Dir/index.zh-hant-tw.md"

@@ -1,7 +1,7 @@
 [[main]]
     identifier = "home"
     name       = "ホーム"
-    url        = "/"
+    url        = "/ja/"
     weight     = -110
     [main.params]
         icon = "home"
@@ -9,7 +9,7 @@
 [[main]]
     identifier = "about"
     name       = "について"
-    url        = "/about/"
+    url        = "/ja/about/"
     weight     = -90
     [main.params]
         icon = "user"
@@ -17,7 +17,7 @@
 [[main]]
     identifier = "archives"
     name       = "アーカイブ"
-    url        = "/archives/"
+    url        = "/ja/archives/"
     weight     = -70
     [main.params]
         icon = "archives"
@@ -25,7 +25,7 @@
 # [[main]]
 #     identifier = "links"
 #     name       = "リンク"
-#     url        = "/links/"
+#     url        = "/ja/links/"
 #     weight     = -50
 #     [main.params]
 #         icon = "link"
@@ -33,7 +33,7 @@
 [[main]]
     identifier = "search"
     name       = "検索"
-    url        = "/search/"
+    url        = "/ja/search/"
     weight     = -40
     [main.params]
         icon = "search"
